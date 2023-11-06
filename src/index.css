@@ -1,0 +1,166 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(195, 250, 223);
+ 
+}
+
+header {
+  width: 100%;
+  font-size: large;
+}
+
+nav {
+  margin-left: 50px;
+}
+
+nav ul {
+  display: flex;
+  margin-left: 50px;
+  gap: 40px; 
+  font-size: x-large;
+  font-weight: lighter;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.iconNavBar i {
+  font-size: 30px;
+  padding: 10px;
+  margin-left: 100px;
+}
+
+h1,
+h2 {
+  font-size: xx-large;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card-image{
+  width: 120px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-title{
+  font-size: small;
+}
+
+.card{
+  border-radius: 30px;
+}
+
+.titulo-detalle {
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.card-image-detalle {
+  width: 150px;
+}
+
+main{
+  width: 100%;
+}
+
+.conteinerItemList{
+  width: 90%;
+  padding: 10px;
+  background: rgb(120, 161, 243);
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  border:1px solid white;
+  box-shadow: 4px 4px 3px rgb(192, 191, 191);
+  border-radius: 15px;
+  font-size: small;
+}
+
+.titulo-carrito{
+  font-size: xx-large;
+  padding:20px;
+  margin-bottom: 20px; 
+}
+
+.inputCarrito{
+  margin-left:10px;
+  margin-bottom:25px ;
+}
+
+.conteinerCarrito{
+ margin-bottom: 80px;
+}
+
+.comprobante-carrito{
+  margin-top: 50px;
+  margin-bottom: 180px;
+}
+
+.carrito-vacio{
+  margin-top: 50px;
+  margin-bottom: 180px;
+}
+
+footer {
+  width: 100%;
+  grid-area: footer;
+  margin-top: 20px;
+}
+
+#contenidoFooter {
+  width: 90%;
+  height: auto;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+
+.infoFooter {
+  display: flex;
+}
+
+.parrFooter {
+  color: white;
+  text-shadow: 1px 2px 2px black;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Montserrat Alternates',
+    sans-serif;
+  border-left: 1px solid grey;
+  margin-left: 5px;
+  padding-left: 8px;
+  margin-bottom: 30px;
+
+}
+
+.iconFooter i {
+  text-align: center;
+  gap: 20px;
+  font-size: x-large;
+}
+
